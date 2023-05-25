@@ -1,0 +1,54 @@
+.container {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: #000;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* colocar as div lado a lado */
+.frutas, .animal {
+    display: inline-block;
+    width: 33.33%; /* Define a largura para dividir igualmente as três divs */
+    box-sizing: border-box; /* Inclui a largura do padding e da borda no cálculo da largura */
+}
+
+/* Nenhum tipo de estilo de lista */
+.frutas h1 {
+    color: crimson;
+}
+
+.frutas ul li {
+    list-style: none; /* tira as bolinhas dos links */
+}
+
+.frutas ul li a {
+    text-decoration: none; /* Tira o sublinhado dos links */
+}
+
+/* Uma borda preta média com duas linhas */
+.animal h1 { color:dodgerblue; }
+
+.animal li {
+    list-style: none; /* tira as bolinhas dos links */
+    border-bottom: 2px solid black; /* Define uma borda sólida preta com largura de 2px */
+
+}
+
+/* Um status de exibição de inline */
+.fastfood ul, .fastfood li, .fastfood a {
+    list-style: none; /* tira as bolinhas dos links */
+    text-decoration: none; /* Tira o sublinhado dos links */
+}
+
+.fastfood li { display: inline;}
