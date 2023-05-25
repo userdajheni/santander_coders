@@ -37,7 +37,7 @@ h1 {
 }
 
 /* Uma borda preta média com duas linhas */
-.animal h1 { color:dodgerblue; }
+.animal h2 { color:dodgerblue; }
 
 .animal li {
     list-style: none; /* tira as bolinhas dos links */

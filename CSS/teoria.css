@@ -1,0 +1,44 @@
+section {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+/* Cores, Background e Textos */
+.aula2 h1 {
+    color: #6700ee ;
+}
+
+.bg-color {
+    width: 200px;
+    height: 200px;
+    background-color: #6700ee;
+    display: flex;
+}
+
+.bg-img {
+    width: 600px;
+    height: 200px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/05/21/07/47/horse-8008038_960_720.jpg); /* coloca uma imagem na div por meio de link */
+    background-size: contain;
+    background-repeat: no-repeat; /* não deixa a imagem ser duplicada */
+    background-attachment: fixed; /* imagem parada como efeito parallax */
+    /*
+        Cover -> ajusta a imagem para ficar agradavel mas se não tiver o mesmo tamanho que a div ela fica cortada
+        auto -> É o valor padrão. A imagem é exibida no seu tamanho original.
+        length -> Define o tamanho da imagem usando uma unidade de medida específica, como pixels (px), centímetros (cm) ou porcentagem (%).
+        percentage -> Define o tamanho da imagem em relação ao elemento pai. Por exemplo, background-size: 50% 75%; definiria o tamanho da imagem como metade da largura e três quartos da altura do elemento pai.
+        contain -> A imagem é redimensionada para que caiba completamente dentro do elemento, pode ocorrer que a imgagem se repita.
+    */
+}
+
+.aula2 ul {
+    text-align: center; /* coloca a lista no centro da página */
+}
+
+.aula2 ul li {
+    list-style: none; /* tira as bolinhas dos links */
+}
+
+.aula2 ul li a {
+    text-decoration: none; /* Tira o sublinhado dos links */
+}
