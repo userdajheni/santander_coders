@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    color: crimson;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* first-letter -> é usada para selecionar e estilizar a primeira letra de um elemento */
+p::first-letter {
+    font-size: 36px;
+    font-weight: bold;
+}
