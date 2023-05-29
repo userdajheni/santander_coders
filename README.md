@@ -9,6 +9,6 @@ No Santander Coders 2023, você escolhe uma entre 4 trilhas de formação na ADA
 * React
 
 ## Desafios
-* [Desafio HTML](https://userdajheni.github.io/santander_coders/Desafio-HTML/)
-* [Desafio CSS](https://userdajheni.github.io/santander_coders/Desafio-CSS/)
-* [Desafio Javascript](https://userdajheni.github.io/santander_coders/Desafio-JS/)
+* [Desafio HTML](https://userdajheni.github.io/santander_coders/Desafio-HTML/){:target="_blank"}
+* [Desafio CSS](https://userdajheni.github.io/santander_coders/Desafio-CSS/){:target="_blank"}
+* [Desafio Javascript](https://userdajheni.github.io/santander_coders/Desafio-JS/){:target="_blank"}
