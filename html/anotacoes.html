@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+    <style>
+        table,tr, td, th {
+            border: 1px solid #000;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML</h1>
+    <p>
+        Todas as páginas web são construídas com html pois esta é a estrutura de uma página web. Ele fica no front-end, ou seja, a parte visual da aplicação é a parte com a qual o usuario interage. <br>
+    </p>
+
+    <p>
+        <strong>HTML</strong>: Hyper Text Markup Language. <b>Hipertexto</b> significa que diferentemente de um texto comum, ele pode conter referencias navegaveis para outros textos. Essas referencias são o que chamamos de <b>links</b>. Uma linguagem de marcação é uma linguagem que possuem simbolos especiais que indicam <b>metainformações</b>. Elas referem-se à forma, hierarquia, ordem e / ou semântica dos elementos da página.
+    </p>
+    <p>
+        Marcação são <b>tags</b>, elas são delimitadas por <b>'<'</b> e <b>'>'</b> usadas para descrever o elemento que será adicionado. Exemplo:
+        <ul>
+            <li><pre>< button ></pre> visualmente fica: <button>Clique aqui</button></li>
+            <li><pre>< p ></pre> isto é um parágrafo</li>
+            <li><pre>< section ></pre> isso é uma sessão (semanticamente)</li>
+        </ul>
+    </p>
+    <p>
+        Elementos também podem ter informações adicionais chamadas de <b>atributos</b>. Estes atributos são pares chave-valor, separados por <b>'='</b> e os valores devem estar envoltos em aspas. Alguns atributos podem ser usados em qualquer elemento como, por exemplo, style que nos permite usar CSS para estilizar o elemento, ou id que provê uma identificação única para o elemento. Exemplos:
+        <ul>
+            <li>< p style="color: #000"> isto e um paragrafo com cor preta< /p ></li>
+            <li>< img width="500px" > aqui o atributo é o width</li>
+        </ul>
+    </p>
+
+    <br><hr><br>
+
+    <h2>Alguns elementos html</h2>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Nome</th>
+            <th>Visual</th>
+        </tr>
+        <tr>
+            <td>< p ></td>
+            <td>paragrafo</td>
+            <td><p>Isto é um parágrafo</p></td>
+        </tr>
+        <tr>
+            <td>< !dictype html5 ></td>
+            <td>Informa ao navegador que é um arquivo html</td>
+            <td>Não é visivel ao navegador</td>
+        </tr>
+        <tr>
+            <td>< html lang="pt-br" ></td>
+            <td>Informa que o idioma é português</td>
+            <td>Não é visivel ao navegador</td>
+        </tr>
+        <tr>
+            <td>< meta charset="UTF-8" ></td>
+            <td colspan="2">Conjunto de caracteres que o doc está utilizando, como acentos</td>
+        </tr>
+        <tr>
+            <td>< meta name="viewport" content="width=device-width, initial-scale=1.0" ></td>
+            <td colspan="2">Informa sobre o tamanho da tela, para que o conteudo se adapte.</td>
+        </tr>
+        <tr>
+            <td>< title >Introdução ao HTML</ title ></td>
+            <td colspan="2">Aparece na aba do navegador</td>
+        </tr>
+        <tr>
+            <td>< head ></td>
+            <td>Cabeçaho do documento</td>
+            <td>Não é visivel ao usuário</td>
+        </tr>
+        <tr>
+            <td>< !-- comentário aqui -- ></td>
+            <td>Comentário para documentar seu arquivo</td>
+            <td>Não é visivel ao usuário</td>
+        </tr>
+        <tr>
+            <td>< a href="sua-url-aqui.com.br">Isto é um link< /a ></td>
+            <td>Para navegar entre sites e arquivos internos e externos</td>
+            <td><a href="#">Isto é um link</a></td>
+        </tr>
+    </table>
+</body>
+</html>
