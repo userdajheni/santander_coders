@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <p>
+        table - forma a tabela <br>
+        tr - forma a linha <br>
+        th - título da célula <br>
+        td - célula da tabela <br>
+    </p>
+
+    <table>
+        <!-- titulo das colunas -->
+        <tr>
+            <th>Aluno</th>
+            <th>Matemática</th>
+            <th>Potuguês</th>
+            <th>História</th>
+            <th>Geografia</th>
+            <th>Ciências</th>
+        </tr>
+        <!-- conteúdo -->
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>7,5</td>
+                <td>8,9</td>
+                <td>8</td>
+                <td>8,2</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>8,5</td>
+                <td>8</td>
+                <td>8,5</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><hr><br>
+
+    <table border="">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Matrícula</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carol</td>
+                <td>carol@gmail.com</td>
+                <td>0548756</td>
+            </tr>
+            <tr>
+                <td>Fernando</td>
+                <td>fernando@gmail.com</td>
+                <td>0750297</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><hr><br>
+
+    <table border="">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Mescle coluna</th>
+                <th>Mescle coluna</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">15/06/2022</td>
+                <td>Despesa</td>
+                <td>Almoço</td>
+                <td>R$ 50,00</td>
+                <td colspan="2">Mesclar colunas</td>
+            </tr>
+
+            <tr>
+                <td>Receita</td>
+                <td>Salário</td>
+                <td>R$ 1.320,00</td>
+                <td colspan="2">Mesclar colunas</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
